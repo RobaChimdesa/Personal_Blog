@@ -69,7 +69,9 @@ const handleUpdateUser = (newUser) => {
 
     <div>
       
-      <h1>Todo List</h1>
+      <h1 class="text-2xl md:text-4xl font-bold text-center text-gray-800 p-4">  
+    My Personal Blog 
+</h1>
       <BlogApp/>
       </div>
       )
