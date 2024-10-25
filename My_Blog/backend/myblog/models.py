@@ -39,8 +39,8 @@ from django.db import models
 class Blog(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()
-    # image = models.URLField(max_length=500, blank=True) 
-    image = models.ImageField(null=True,blank=True,upload_to="images/")
+    image = models.URLField(max_length=500, blank=True) 
+    # image = models.ImageField(null=True,blank=True,upload_to="images/")
     created_at = models.DateTimeField(auto_now_add=True)
 
     def _str_(self):

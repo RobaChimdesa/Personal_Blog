@@ -88,6 +88,7 @@ const addBlog = (newblog) =>{
   })
   .catch((error)=>{
    console.error("there was an error adding blog",error)
+   console.log('not connected')
   });
 };
 

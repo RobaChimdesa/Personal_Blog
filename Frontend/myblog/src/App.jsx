@@ -13,8 +13,7 @@ import Header from './pages/Header';
 import Counter from './pages/Counter';
 import UserForm from './pages/UserForm';
 import UserInfo from './pages/UserInfo';
-import TodoForm from './Todos/TodoForm';
-import TodoList from './Todos/TodoList';
+
 import Cal from './pages/Cal';
 import BlogApp from './blog/BlogApp';
 function App() {
